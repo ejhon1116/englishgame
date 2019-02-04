@@ -15,7 +15,7 @@ var config = {
             debug: false
         }
     },
-    scene: [scene1, gameover]
+    scene: [scene1, gameover, won]
 };
 
 var game = new Phaser.Game(config);
