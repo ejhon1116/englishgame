@@ -18,4 +18,4 @@ var config = {
     scene: [scene1, gameover, won]
 };
 
-var game = new Phaser.Game(config);
+export const game = new Phaser.Game(config);
