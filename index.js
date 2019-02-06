@@ -1,9 +1,8 @@
-import scene1 from './scenes/scene1'
-import gameover from './scenes/gameover'
-import won from './scenes/won'
-var screenwidth = window.screen.width - 15
-var screenheight = (window.screen.availHeight - 100)
-console.log(screenwidth, screenheight)
+import scene1 from './scenes/scene1';
+import gameover from './scenes/gameover';
+import won from './scenes/won';
+var screenwidth = window.screen.width - 15;
+var screenheight = (window.screen.availHeight - 100);
 var config = {
     type: Phaser.AUTO,
     width: screenwidth,
