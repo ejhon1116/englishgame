@@ -5,7 +5,7 @@ export default class won extends Phaser.Scene {
         super('won')
     }
     preload() {
-        this.image.load('won', './assets/won.png')
+        this.load.image('won', './assets/won.png')
     }
     create() {
         this.add.image(screenwidth/2, screenheight/2, 'won')
