@@ -10,7 +10,7 @@ export default class gameover extends Phaser.Scene{
     }
 
     create() {
-        this.add.image(sw/2, screenheight/2, 'gameover').setScale(10, 10)
+        this.add.image(sw/2, screenheight/2, 'gameover').setScale(1000, 1000)
         this.input.on('pointerdown', (pointer) => {
             this.scene.start('scene1')
         }, this)
