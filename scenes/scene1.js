@@ -111,7 +111,7 @@ export default class scene1 extends Phaser.Scene {
     }
     update() {
         player.setVelocityX(basespeed)
-        if (player.x >= 1450) {
+        if (player.x >= screenwidth-100) {
             player.anims.play('leftwalk', true);
             basespeed = -200
 
