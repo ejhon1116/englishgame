@@ -1,6 +1,6 @@
-import scene1 from './scenes/scene1';
-import gameover from './scenes/gameover';
-import won from './scenes/won';
+import scene1 from './scenes/scene1.js';
+import gameover from './scenes/gameover.js';
+import won from './scenes/won.js';
 var screenwidth = window.screen.width - 15;
 var screenheight = (window.screen.availHeight - 100);
 var config = {
